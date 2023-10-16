@@ -266,7 +266,7 @@ img.logo {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #149ddd;
+  border-bottom: 3px solid red;
 }
 
 @media (min-width: 1024px) {
@@ -462,7 +462,7 @@ section {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-family: "Poppins", sans-serif;
   color: #050d18;
   margin-bottom: 10px;
@@ -602,13 +602,13 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# projects
 --------------------------------------------------------------*/
-.services .icon-box {
+.projects .icon-box {
   margin-bottom: 20px;
 }
 
-.services .icon {
+.projects .icon {
   float: left;
   display: flex;
   align-items: center;
@@ -621,35 +621,35 @@ section {
   border: 1px solid #149ddd;
 }
 
-.services .icon i {
+.projects .icon i {
   color: #fff;
   font-size: 24px;
 }
 
-.services .icon-box:hover .icon {
+.projects .icon-box:hover .icon {
   background: #fff;
 }
 
-.services .icon-box:hover .icon i {
+.projects .icon-box:hover .icon i {
   color: #149ddd;
 }
 
-.services .title {
+.projects .title {
   margin-left: 80px;
   font-weight: 700;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
   font-size: 18px;
 }
 
-.services .title a {
+.projects .title a {
   color: #343a40;
 }
 
-.services .title a:hover {
+.projects .title a:hover {
   color: #149ddd;
 }
 
-.services .description {
+.projects .description {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
